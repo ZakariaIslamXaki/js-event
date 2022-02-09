@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Change Website Color's</h1>
-    <button onclick="document.body.style.backgroundColor = 'Red'">Click For : Red</button>
-    <button onclick="clickBlue()">Click For : Blue</button>
-    <button onclick="clickGreen()">Click For : Green</button>
-    <button id="yellow-button">Click For : Yellow</button>
-    <button id="orange-button">Click For : Orange</button>
-    <button id="pink-button">Click For : Hot-Pink</button>
-    <button id="cyan-button">Click For : Cyan</button>
+    <h1 class="heading">Change Website Color's</h1>
+    <section class="buttons">
+        <button class="button" onclick="document.body.style.backgroundColor = 'Red'">Click For : Red</button>
+    <button class="button" onclick="clickBlue()">Click For : Blue</button>
+    <button class="button" onclick="clickGreen()">Click For : Green</button>
+    <button class="button" id="yellow-button">Click For : Yellow</button>
+    <button class="button" id="orange-button">Click For : Orange</button>
+    <button class="button" id="pink-button">Click For : Hot-Pink</button>
+    <button class="button" id="cyan-button">Click For : Cyan</button>
+    <button class="button" id="brown-button">Click For : Brown</button>
+    <button class="button" onclick="clickWhite()">Click For : Default</button>
+    </section>
 
     <script>
         function clickBlue(){

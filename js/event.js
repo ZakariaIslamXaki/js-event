@@ -1,6 +1,9 @@
 function clickGreen() {
     document.body.style.backgroundColor = 'Green'
 }
+function clickWhite() {
+    document.body.style.backgroundColor = 'White'
+}
 const yellowButton = document.getElementById ('yellow-button');
 yellowButton.onclick = makeYellow;
 
@@ -22,4 +25,8 @@ function makePink(){
 const cyanButton = document.getElementById('cyan-button');
 cyanButton.addEventListener('click', function (){
     document.body.style.backgroundColor = 'Cyan';
+})
+
+document.getElementById('brown-button').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'Brown'
 })
